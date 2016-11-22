@@ -1,0 +1,6 @@
+E:\GitSource\Blog\Blog\src\Blog\bin\Debug\netcoreapp1.0\Blog.dll
+E:\GitSource\Blog\Blog\src\Blog\bin\Debug\netcoreapp1.0\Blog.pdb
+E:\GitSource\Blog\Blog\src\Blog\obj\Debug\netcoreapp1.0\Blog.csprojResolveAssemblyReference.cache
+E:\GitSource\Blog\Blog\src\Blog\obj\Debug\netcoreapp1.0\Blog.AssemblyInfo.cs
+E:\GitSource\Blog\Blog\src\Blog\obj\Debug\netcoreapp1.0\Blog.dll
+E:\GitSource\Blog\Blog\src\Blog\obj\Debug\netcoreapp1.0\Blog.pdb
