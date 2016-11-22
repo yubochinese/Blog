@@ -8,7 +8,7 @@
 
     <!-- Site Properties -->
     <title>Bootstrap - Semantic</title>
-    <link rel="stylesheet" type="text/css" href="`/lib/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="~/lib/semantic/dist/semantic.min.css">
     @RenderSection("css", required: false)
     <environment names="Development">
         <link rel="stylesheet" href="~/css/site.css" />
@@ -16,14 +16,30 @@
     <environment names="Staging,Production">
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
+    <style type="text/css">
+        body {
+            background-color: #DADADA;
+        }
 
+            body > .grid {
+                height: 100%;
+            }
+
+        .image {
+            margin-top: -100px;
+        }
+
+        .column {
+            max-width: 450px;
+        }
+    </style>
 </head>
 <body>
 
     @RenderBody()
 
-    <script src="`/lib/jquery/dist/jquery.min.js"></script>
-    <script src="`/lib/semantic/dist/semantic.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/semantic/dist/semantic.min.js"></script>
     <environment names="Development">
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
