@@ -16,23 +16,7 @@
     <environment names="Staging,Production">
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
-    <style type="text/css">
-        body {
-            background-color: #DADADA;
-        }
-
-            body > .grid {
-                height: 100%;
-            }
-
-        .image {
-            margin-top: -100px;
-        }
-
-        .column {
-            max-width: 450px;
-        }
-    </style>
+   
 </head>
 <body>
 
@@ -46,16 +30,7 @@
     <environment names="Staging,Production">
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
-    <script>
-      $(document)
-        .ready(function() {
-          $('.ui.selection.dropdown').dropdown();
-          $('.ui.menu .ui.dropdown').dropdown({
-            on: 'hover'
-          });
-        })
-      ;
-    </script>
+   
     @RenderSection("scripts", required: false)
 </body>
 </html>
